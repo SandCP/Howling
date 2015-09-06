@@ -12,7 +12,7 @@ include "Howling.php"
 $howl = new Howling("204.75.167.219",6112,true)  
 $howl->handshake("username","password")
 </pre><p>
-Python:<br>
+Python[Incomplete]:<br>
 <pre>
 import Howling  
 howl = Howling("204.75.167.219",6112,true)  
