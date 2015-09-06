@@ -1,20 +1,20 @@
 # Howling
 Howling Club Penguin Connector.<P>
 Ruby:<br>
-<code>
+<pre>
 require_relative "Howling"  
 howl = Howling.new("204.75.167.219",6112,true)  
 howl.handshake("username","password")
-</code><p>
+</pre><p>
 PHP:<br>
-<code>
+<pre>
 include "Howling.php"  
 $howl = new Howling("204.75.167.219",6112,true)  
 $howl->handshake("username","password")
-</code><p>
+</pre><p>
 Python:<br>
-<code>
+<pre>
 import Howling  
 howl = Howling("204.75.167.219",6112,true)  
 howl.handshake("username","password")
-</code>
+</pre>
